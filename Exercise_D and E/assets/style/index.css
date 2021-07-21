@@ -2,3 +2,232 @@
 This css sheet is linked to practice.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+*{
+    padding:0;
+    margin: 0;
+    /* border:0.5px solid red */
+}
+header img{
+    width: 200px;
+    padding-left: 1rem;
+    
+
+  
+}
+
+div.section1{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+div.section1 img{
+    width: 100vw;
+    height: 80vh;
+    filter: brightness(30%)
+}
+
+.main_word{
+    
+position:absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+.main_word h1{
+    font-size: 4.5rem;
+}
+.main_word h2{
+    background-color: rgb(96, 245, 101);
+    
+    font-size: 2rem;
+    margin: 10px;
+  padding:10px ;
+    border-radius: 50px;
+}
+
+.section2{
+    background-color: rgb(191, 232, 150);
+width: 100vw;
+height:30vh;
+
+position: relative;
+    top: 10%;
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  
+}
+
+
+
+.flower{
+   display: flex;
+   position: absolute;
+   top:10%;
+   left: 20%;
+}
+.payment{
+    display: flex;
+    position: absolute;
+    top:10%;
+    left: 60%;
+}
+.phone{
+    display: flex;
+    position: absolute;
+    top:50%;
+    left:20%;
+}
+.truck{
+    display: flex;
+    position: absolute;
+    top:50%;
+    left: 60%;
+}
+
+.icon{
+    width: 50px;
+    margin: 20px;
+    
+}
+
+.word{
+    
+    font-size: 1rem;
+    opacity: 50%;
+    /* padding-top: 30px; */
+    width: 150px;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 0px;
+}
+
+#phone_word{
+    padding-top: 35px;
+}
+
+#truck_word{
+    padding-top: 35px;
+}
+/* #flower_word{
+    width: 150px;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 0px;
+}
+#payment_word{
+
+    width: 150px;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 0px;
+} */
+
+@media screen and (max-width:1100px){
+    .main_word h1{
+        font-size: 3rem;
+    }
+    .main_word h2{
+        background-color: rgb(96, 245, 101);
+        
+        font-size: 1.5rem;
+        margin: 10px;
+      padding:10px ;
+        border-radius: 50px;
+    }
+
+    div.section1 img{
+        width: 100vw;
+        height: 80vh;
+        filter: brightness(30%)
+    }
+}
+
+
+
+
+@media screen and (max-width:500px){
+    .main_word h1{
+        font-size: 2rem;
+    }
+    .main_word h2{
+        background-color: rgb(96, 245, 101);
+        
+        font-size: 1rem;
+        margin: 10px;
+      padding:10px ;
+        border-radius: 50px;
+    }
+
+    div.section1 img{
+        width: 130vw;
+        height: 50vh;
+        filter: brightness(30%)
+    }
+
+    .section2{
+    background-color: rgb(191, 232, 150);
+    width: 160vw;
+    height:80vh;
+    position: absolute;
+    top: 90%; 
+   
+  /* transform: translate(-50%, -50%); 
+  display: flex;
+  align-items: center; 
+  flex-direction: column; */
+}
+
+.flower{
+    display: flex;
+    position: absolute;
+    top:5%;
+    left: 27%;
+}
+
+.payment{
+    display: flex;
+    position: absolute;
+    top:20%;
+    left: 27%;
+}
+.phone{
+    display: flex;
+    position: absolute;
+    top:35%;
+    left:27%;
+}
+.truck{
+    display: flex;
+    position: absolute;
+    top:50%;
+    left: 27%;
+}
+
+.icon{
+    width: 50px;
+    margin: 20px;
+    
+}
+
+.word{
+    
+    font-size: 1rem;
+    opacity: 50%;
+    /* padding-top: 30px; */
+    width: 150px;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 0px;
+}
+
+#phone_word{
+    padding-top: 35px;
+}
+
+#truck_word{
+    padding-top: 35px;
+}
